@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <p>Hey! I'll reach out as soon as possible. Provide me with required credentials.<br>
+<form action="mailto:mehrabhumik@yahoo.com" method="post" enctype="text/plain">  <!-- this creates a form. Action attribute mein jo address h, submission ke baad aap uspe chal jaoge/ redirect hojaoge. mailto to mail bhi karwa skate ho entries. Method btayega ki kya karna h. enctype="" se batayega ki encryption type kya h mail ke lie-->
+  <label>Your Name: </label> <!-- label creates the question-->
+  <input type="text" name="Your Name: " value=""><!-- bs input likh kar enter, iise user entry dega. Documentation mein dekh, type="" mein sab h datatype-->
+  <br/>
+  <br>
+  <label>Email ID: </label>
+  <input type="email" name="Email ID: " value="">           <!-- isme name="" ke andar wo likho jo mail ke content body mein dikhe-->
+  <br/>
+  <br>
+  <label>Phone no.: </label>
+  <input type="number" name="Phone: " value="">
+  <br />
+  <br />
+  <label>When are you willing to meet me?</label>
+  <input type="date" name="Date: " value="">
+  <br />
+  <br />
+  <label>Kindly explain your purpose of meeting.</label>
+  <br>
+  <textarea name="Purpose: " rows="8" cols="65"></textarea> <!-- ye paragraph answer ke liye. Adjust row and column accordingly-->
+  <br>
+  <br>
+  <input type="SUBMIT" name=""><!-- isme value nhi aati--> <!-- doc mein dekho, there's every input type. date, email, etc-->
+
+</form>
+</body>
+</html>
